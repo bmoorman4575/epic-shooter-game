@@ -467,7 +467,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.maingamesceneCode.eventsList4(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("walkconcrete"); }gdjs.maingamesceneCode.eventsList4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("walkconcrete"); }
 }
 
 
@@ -803,21 +803,21 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.maingamesceneCode.eventsList7(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("movement"); }gdjs.maingamesceneCode.eventsList7(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("movement"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList8(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("gunlayerlighting"); }gdjs.maingamesceneCode.eventsList8(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("gunlayerlighting"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList10(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("camera move"); }gdjs.maingamesceneCode.eventsList10(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("camera move"); }
 }
 
 
@@ -1235,7 +1235,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.maingamesceneCode.eventsList20(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("shooting"); }gdjs.maingamesceneCode.eventsList20(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("shooting"); }
 }
 
 
@@ -1508,7 +1508,7 @@ gdjs.maingamesceneCode.eventsList23(runtimeScene);} //End of subevents
 {
 
 
-gdjs.maingamesceneCode.eventsList24(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ak47"); }gdjs.maingamesceneCode.eventsList24(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ak47"); }
 }
 
 
@@ -1532,7 +1532,7 @@ gdjs.maingamesceneCode.eventsList25(runtimeScene);} //End of subevents
 };gdjs.maingamesceneCode.eventsList27 = function(runtimeScene) {
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDblackwholeObjects2Objects = Hashtable.newFrom({"blackwhole": gdjs.maingamesceneCode.GDblackwholeObjects2});
-gdjs.maingamesceneCode.userFunc0xa79818 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0xcbb7a0 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -1714,7 +1714,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects2, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0xa79818(runtimeScene);
+gdjs.maingamesceneCode.userFunc0xcbb7a0(runtimeScene);
 
 }
 
@@ -1773,7 +1773,7 @@ gdjs.maingamesceneCode.eventsList29(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDtargerboardObjects2Objects = Hashtable.newFrom({"targerboard": gdjs.maingamesceneCode.GDtargerboardObjects2});
-gdjs.maingamesceneCode.userFunc0xc75bc8 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x96adf8 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -1947,7 +1947,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDtargerboardObjects2, gdjs.maingamesceneC
 {
 
 
-gdjs.maingamesceneCode.userFunc0xc75bc8(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x96adf8(runtimeScene);
 
 }
 
@@ -2006,7 +2006,7 @@ gdjs.maingamesceneCode.eventsList32(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDhitboxplayerbodyObjects2Objects = Hashtable.newFrom({"hitboxplayerbody": gdjs.maingamesceneCode.GDhitboxplayerbodyObjects2});
-gdjs.maingamesceneCode.userFunc0xd12c80 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x96b750 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -2180,7 +2180,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects2, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0xd12c80(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x96b750(runtimeScene);
 
 }
 
@@ -2239,7 +2239,7 @@ gdjs.maingamesceneCode.eventsList35(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDhitboxplayerheadObjects1Objects = Hashtable.newFrom({"hitboxplayerhead": gdjs.maingamesceneCode.GDhitboxplayerheadObjects1});
-gdjs.maingamesceneCode.userFunc0xd50ef8 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0xcc0908 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -2449,7 +2449,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects1, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0xd50ef8(runtimeScene);
+gdjs.maingamesceneCode.userFunc0xcc0908(runtimeScene);
 
 }
 
@@ -2512,14 +2512,14 @@ gdjs.maingamesceneCode.eventsList39(runtimeScene);} //End of subevents
 {
 
 
-gdjs.maingamesceneCode.eventsList36(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("body"); }gdjs.maingamesceneCode.eventsList36(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("body"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList40(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("head"); }gdjs.maingamesceneCode.eventsList40(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("head"); }
 }
 
 
@@ -2528,21 +2528,21 @@ gdjs.maingamesceneCode.eventsList40(runtimeScene);
 {
 
 
-gdjs.maingamesceneCode.eventsList30(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("blackhole"); }gdjs.maingamesceneCode.eventsList30(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("blackhole"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList33(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("targer board"); }gdjs.maingamesceneCode.eventsList33(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("targer board"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList41(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("person"); }gdjs.maingamesceneCode.eventsList41(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("person"); }
 }
 
 
@@ -2551,7 +2551,7 @@ gdjs.maingamesceneCode.eventsList41(runtimeScene);
 {
 
 
-gdjs.maingamesceneCode.eventsList27(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin(""); }gdjs.maingamesceneCode.eventsList27(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end(""); }
 }
 
 
@@ -2636,7 +2636,7 @@ gdjs.maingamesceneCode.eventsList44(runtimeScene);} //End of subevents
 {
 
 
-gdjs.maingamesceneCode.eventsList45(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("normal hitmarker"); }gdjs.maingamesceneCode.eventsList45(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("normal hitmarker"); }
 }
 
 
@@ -2701,7 +2701,7 @@ gdjs.maingamesceneCode.eventsList48(runtimeScene);} //End of subevents
 {
 
 
-gdjs.maingamesceneCode.eventsList49(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("sun"); }gdjs.maingamesceneCode.eventsList49(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("sun"); }
 }
 
 
@@ -4212,7 +4212,7 @@ gdjs.maingamesceneCode.eventsList52(runtimeScene);} //End of subevents
 {
 
 
-gdjs.maingamesceneCode.eventsList68(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("stars"); }gdjs.maingamesceneCode.eventsList68(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("stars"); }
 }
 
 
@@ -4436,7 +4436,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.maingamesceneCode.eventsList72(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("blackwhole"); }gdjs.maingamesceneCode.eventsList72(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("blackwhole"); }
 }
 
 
@@ -4475,42 +4475,42 @@ gdjs.copyArray(runtimeScene.getObjects("crosshair"), gdjs.maingamesceneCode.GDcr
 {
 
 
-gdjs.maingamesceneCode.eventsList11(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("fpscontroller"); }gdjs.maingamesceneCode.eventsList11(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("fpscontroller"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList12(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("camera hand animation controller"); }gdjs.maingamesceneCode.eventsList12(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("camera hand animation controller"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList26(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("gun"); }gdjs.maingamesceneCode.eventsList26(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("gun"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList43(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("bullet hit group"); }gdjs.maingamesceneCode.eventsList43(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("bullet hit group"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList46(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("hitmarker"); }gdjs.maingamesceneCode.eventsList46(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("hitmarker"); }
 }
 
 
 {
 
 
-gdjs.maingamesceneCode.eventsList50(runtimeScene);
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("sky"); }gdjs.maingamesceneCode.eventsList50(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("sky"); }
 }
 
 

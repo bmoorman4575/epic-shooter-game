@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__MousePointerLock__ExitPointerLock !== "undefined") {
 gdjs.evtsExt__MousePointerLock__ExitPointerLock = {};
 
 
-gdjs.evtsExt__MousePointerLock__ExitPointerLock.userFunc0xc71718 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MousePointerLock__ExitPointerLock.userFunc0x116df00 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 document.exitPointerLock();
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__MousePointerLock__ExitPointerLock.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__MousePointerLock__ExitPointerLock.userFunc0xc71718(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__MousePointerLock__ExitPointerLock.userFunc0x116df00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

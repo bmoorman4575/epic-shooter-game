@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__MousePointerLock__MovementY !== "undefined") {
 gdjs.evtsExt__MousePointerLock__MovementY = {};
 
 
-gdjs.evtsExt__MousePointerLock__MovementY.userFunc0xc4cfa0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x116d1e0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.y || 0;
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__MousePointerLock__MovementY.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__MousePointerLock__MovementY.userFunc0xc4cfa0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x116d1e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__MousePointerLock__RequestPointerLock !== "undefined") {
 gdjs.evtsExt__MousePointerLock__RequestPointerLock = {};
 
 
-gdjs.evtsExt__MousePointerLock__RequestPointerLock.userFunc0xd1fe20 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MousePointerLock__RequestPointerLock.userFunc0x116d1e0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const canvas = runtimeScene.getGame().getRenderer().getCanvas();
 canvas.requestPointerLock({ unadjustedMovement: true });
@@ -18,7 +18,7 @@ gdjs.evtsExt__MousePointerLock__RequestPointerLock.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__MousePointerLock__RequestPointerLock.userFunc0xd1fe20(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__MousePointerLock__RequestPointerLock.userFunc0x116d1e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

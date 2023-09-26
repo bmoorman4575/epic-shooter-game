@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__VR__HideVRButton !== "undefined") {
 gdjs.evtsExt__VR__HideVRButton = {};
 
 
-gdjs.evtsExt__VR__HideVRButton.userFunc0x748ea8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VR__HideVRButton.userFunc0xb05a98 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.vr.button.remove();
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__VR__HideVRButton.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__VR__HideVRButton.userFunc0x748ea8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__VR__HideVRButton.userFunc0xb05a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
