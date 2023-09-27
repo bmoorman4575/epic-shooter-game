@@ -1,31 +1,18 @@
-gdjs.blackCode = {};
+gdjs.stop_32looking_32at_32my_32scenes_32XDCode = {};
 
 
-gdjs.blackCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtsExt__MousePointerLock__ExitPointerLock.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}}
-
-}
-
+gdjs.stop_32looking_32at_32my_32scenes_32XDCode.eventsList0 = function(runtimeScene) {
 
 };
 
-gdjs.blackCode.func = function(runtimeScene) {
+gdjs.stop_32looking_32at_32my_32scenes_32XDCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
 
-gdjs.blackCode.eventsList0(runtimeScene);
+gdjs.stop_32looking_32at_32my_32scenes_32XDCode.eventsList0(runtimeScene);
 
 return;
 
 }
 
-gdjs['blackCode'] = gdjs.blackCode;
+gdjs['stop_32looking_32at_32my_32scenes_32XDCode'] = gdjs.stop_32looking_32at_32my_32scenes_32XDCode;
