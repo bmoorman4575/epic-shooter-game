@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject !== "undefi
 gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject.userFunc0xaf5f78 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject.userFunc0x9769f0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -38,7 +38,7 @@ gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject.eventsList0 = function
 {
 
 
-gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject.userFunc0xaf5f78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__DistanceFrom3DObjectTo3DObject.userFunc0x9769f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

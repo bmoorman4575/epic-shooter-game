@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits !== "u
 gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits = {};
 
 
-gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits.userFunc0xaf5f78 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits.userFunc0x9b4d60 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -59,7 +59,7 @@ gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits.eventsList0 = fun
 {
 
 
-gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits.userFunc0xaf5f78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Correct3DObjectRotationWithinLimits.userFunc0x9b4d60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

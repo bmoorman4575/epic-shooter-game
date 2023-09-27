@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera !== "undefined") {
 gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera = {};
 
 
-gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera.userFunc0xb0ecb8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera.userFunc0xce1de8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -53,7 +53,7 @@ gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera.userFunc0xb0ecb8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__RaycastFrom3DCamera.userFunc0xce1de8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

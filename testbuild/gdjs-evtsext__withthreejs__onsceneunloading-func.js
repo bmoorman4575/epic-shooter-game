@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__onSceneUnloading !== "undefined") {
 gdjs.evtsExt__WithThreeJS__onSceneUnloading = {};
 
 
-gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0x8ebd20 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb8e4f8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__WithThreeJS.get("BuiltIn3D")) {
     if (runtimeScene.getRenderer()._threeRenderer._render_WithThreeJS) {
@@ -48,7 +48,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0x8ebd20(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb8e4f8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

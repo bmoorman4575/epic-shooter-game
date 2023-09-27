@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__VR__onScenePostEvents !== "undefined") {
 gdjs.evtsExt__VR__onScenePostEvents = {};
 
 
-gdjs.evtsExt__VR__onScenePostEvents.userFunc0xb05a98 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VR__onScenePostEvents.userFunc0x9629d0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const threeRenderer = runtimeScene.getGame().getRenderer().getThreeRenderer();
 if (gdjs.vr.wasPresenting && !threeRenderer.xr.isPresenting) {
@@ -26,7 +26,7 @@ gdjs.evtsExt__VR__onScenePostEvents.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__VR__onScenePostEvents.userFunc0xb05a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__VR__onScenePostEvents.userFunc0x9629d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

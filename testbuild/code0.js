@@ -10,7 +10,7 @@ gdjs.menuCode.GDblackObjects2= [];
 
 
 gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDcreditsbtmgamesObjects1Objects = Hashtable.newFrom({"creditsbtmgames": gdjs.menuCode.GDcreditsbtmgamesObjects1});
-gdjs.menuCode.asyncCallback14108116 = function (runtimeScene, asyncObjectsList) {
+gdjs.menuCode.asyncCallback14457404 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDloadingtxtObjects1Objects = Hashtable.newFrom({"loadingtxt": gdjs.menuCode.GDloadingtxtObjects1});
 gdjs.menuCode.eventsList0 = function(runtimeScene) {
@@ -22,7 +22,7 @@ gdjs.copyArray(runtimeScene.getObjects("loadingtxt"), gdjs.menuCode.GDloadingtxt
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__btm_game_helper_extention__caption.func(runtimeScene, "", 1, gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDloadingtxtObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.menuCode.asyncCallback14108116(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__btm_game_helper_extention__caption.func(runtimeScene, "", 1, gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDloadingtxtObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), (runtimeScene) => (gdjs.menuCode.asyncCallback14457404(runtimeScene, asyncObjectsList)));
 }
 }
 

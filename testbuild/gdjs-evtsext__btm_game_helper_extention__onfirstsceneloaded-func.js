@@ -18,7 +18,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isPreview(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13492812);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13801788);
 }
 }
 if (isConditionTrue_0) {

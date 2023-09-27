@@ -12,7 +12,7 @@ gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects2= [];
 
 gdjs.evtsExt__btm_game_helper_extention__caption.mapOfGDgdjs_9546evtsExt_9595_9595btm_9595game_9595helper_9595extention_9595_9595caption_9546GDcaptiontextObjects1Objects = Hashtable.newFrom({"captiontext": gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects1});
 gdjs.evtsExt__btm_game_helper_extention__caption.mapOfGDgdjs_9546evtsExt_9595_9595btm_9595game_9595helper_9595extention_9595_9595caption_9546GDcaptiontextObjects1Objects = Hashtable.newFrom({"captiontext": gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects1});
-gdjs.evtsExt__btm_game_helper_extention__caption.asyncCallback13523732 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__btm_game_helper_extention__caption.asyncCallback13829044 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("captiontext"), gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects2);
 
 {for(var i = 0, len = gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects2.length ;i < len;++i) {
@@ -29,7 +29,7 @@ gdjs.evtsExt__btm_game_helper_extention__caption.eventsList0 = function(runtimeS
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.evtsExt__btm_game_helper_extention__caption.GDcaptiontextObjects1) asyncObjectsList.addObject("captiontext", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("time")) || 0 : 0)), (runtimeScene) => (gdjs.evtsExt__btm_game_helper_extention__caption.asyncCallback13523732(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("time")) || 0 : 0)), (runtimeScene) => (gdjs.evtsExt__btm_game_helper_extention__caption.asyncCallback13829044(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 

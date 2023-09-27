@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS !== "undefined") {
 gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS = {};
 
 
-gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS.userFunc0x769e30 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS.userFunc0xce7600 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 // console.log("Three.js create scene");
 /*
@@ -104,7 +104,7 @@ gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS.userFunc0x769e30(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__BuiltIn3dWithThreeJS.userFunc0xce7600(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

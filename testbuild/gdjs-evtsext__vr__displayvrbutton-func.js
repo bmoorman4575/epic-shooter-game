@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__VR__DisplayVRButton !== "undefined") {
 gdjs.evtsExt__VR__DisplayVRButton = {};
 
 
-gdjs.evtsExt__VR__DisplayVRButton.userFunc0xb05a98 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VR__DisplayVRButton.userFunc0x9629d0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 document.body.appendChild(gdjs.vr.button);
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__VR__DisplayVRButton.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__VR__DisplayVRButton.userFunc0xb05a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__VR__DisplayVRButton.userFunc0x9629d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -19,7 +19,7 @@ gdjs.evtsExt__btm_game_helper_extention__fpscameraruntime.eventsList0 = function
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13502756);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13821820);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "walkingdelay");
@@ -36,7 +36,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13504324);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13823988);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "walkingdelay");
@@ -63,7 +63,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13506196);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13826428);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "walkingdelay");
@@ -90,7 +90,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13508076);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13828628);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "walkingdelay");
@@ -377,7 +377,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "d"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13519732);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(13833444);
 }
 }
 }

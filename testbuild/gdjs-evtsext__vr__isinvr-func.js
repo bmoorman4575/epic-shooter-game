@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__VR__IsInVR !== "undefined") {
 gdjs.evtsExt__VR__IsInVR = {};
 
 
-gdjs.evtsExt__VR__IsInVR.userFunc0xb05a98 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__VR__IsInVR.userFunc0xb8e428 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__VR__IsInVR.eventsList0 = function(runtimeScene, eventsFunctionCont
 {
 
 
-gdjs.evtsExt__VR__IsInVR.userFunc0xb05a98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__VR__IsInVR.userFunc0xb8e428(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

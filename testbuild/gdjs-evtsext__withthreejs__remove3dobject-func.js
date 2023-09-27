@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Remove3DObject !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Remove3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__Remove3DObject.userFunc0xaf5f78 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Remove3DObject.userFunc0x9b4d60 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -38,7 +38,7 @@ gdjs.evtsExt__WithThreeJS__Remove3DObject.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__WithThreeJS__Remove3DObject.userFunc0xaf5f78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Remove3DObject.userFunc0x9b4d60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

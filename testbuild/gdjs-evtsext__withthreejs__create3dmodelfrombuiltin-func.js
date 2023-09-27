@@ -9,7 +9,7 @@ gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn = {};
 gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.GDModelObjectObjects1= [];
 
 
-gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.userFunc0xb0ecb8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.userFunc0xce1de8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -93,7 +93,7 @@ gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.userFunc0xb0ecb8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DModelFromBuiltIn.userFunc0xce1de8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

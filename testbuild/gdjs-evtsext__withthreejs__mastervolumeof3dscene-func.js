@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene !== "undefined") {
 gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene = {};
 
 
-gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene.userFunc0xc46df0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene.userFunc0xcfe7b8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -24,7 +24,7 @@ gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene.userFunc0xc46df0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__MasterVolumeOf3DScene.userFunc0xcfe7b8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
