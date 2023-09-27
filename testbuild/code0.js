@@ -1532,7 +1532,7 @@ gdjs.maingamesceneCode.eventsList25(runtimeScene);} //End of subevents
 };gdjs.maingamesceneCode.eventsList27 = function(runtimeScene) {
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDblackwholeObjects2Objects = Hashtable.newFrom({"blackwhole": gdjs.maingamesceneCode.GDblackwholeObjects2});
-gdjs.maingamesceneCode.userFunc0x8fbef8 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x8be2a0 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -1714,7 +1714,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects2, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0x8fbef8(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x8be2a0(runtimeScene);
 
 }
 
@@ -1773,7 +1773,7 @@ gdjs.maingamesceneCode.eventsList29(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDtargerboardObjects2Objects = Hashtable.newFrom({"targerboard": gdjs.maingamesceneCode.GDtargerboardObjects2});
-gdjs.maingamesceneCode.userFunc0x8be970 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x7a4938 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -1947,7 +1947,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDtargerboardObjects2, gdjs.maingamesceneC
 {
 
 
-gdjs.maingamesceneCode.userFunc0x8be970(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x7a4938(runtimeScene);
 
 }
 
@@ -2006,7 +2006,7 @@ gdjs.maingamesceneCode.eventsList32(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDhitboxplayerbodyObjects2Objects = Hashtable.newFrom({"hitboxplayerbody": gdjs.maingamesceneCode.GDhitboxplayerbodyObjects2});
-gdjs.maingamesceneCode.userFunc0x7a4e38 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x95eb38 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -2180,7 +2180,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects2, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0x7a4e38(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x95eb38(runtimeScene);
 
 }
 
@@ -2239,7 +2239,7 @@ gdjs.maingamesceneCode.eventsList35(runtimeScene);} //End of subevents
 
 
 };gdjs.maingamesceneCode.mapOfGDgdjs_9546maingamesceneCode_9546GDhitboxplayerheadObjects1Objects = Hashtable.newFrom({"hitboxplayerhead": gdjs.maingamesceneCode.GDhitboxplayerheadObjects1});
-gdjs.maingamesceneCode.userFunc0x95ef90 = function(runtimeScene) {
+gdjs.maingamesceneCode.userFunc0x960350 = function(runtimeScene) {
 "use strict";
 var rotation = runtimeScene.getVariables().get("headrotation").getAsNumber();
 var distance = runtimeScene.getVariables().get("distance").getAsNumber();
@@ -2449,7 +2449,7 @@ gdjs.copyArray(gdjs.maingamesceneCode.GDplayerObjects1, gdjs.maingamesceneCode.G
 {
 
 
-gdjs.maingamesceneCode.userFunc0x95ef90(runtimeScene);
+gdjs.maingamesceneCode.userFunc0x960350(runtimeScene);
 
 }
 
