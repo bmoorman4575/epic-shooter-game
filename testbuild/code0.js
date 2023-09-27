@@ -11,7 +11,8 @@ gdjs.menuCode.GDblackObjects2= [];
 
 gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDcreditsbtmgamesObjects1Objects = Hashtable.newFrom({"creditsbtmgames": gdjs.menuCode.GDcreditsbtmgamesObjects1});
 gdjs.menuCode.asyncCallback14457404 = function (runtimeScene, asyncObjectsList) {
-}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "maingamescene", false);
+}}
 gdjs.menuCode.mapOfGDgdjs_9546menuCode_9546GDloadingtxtObjects1Objects = Hashtable.newFrom({"loadingtxt": gdjs.menuCode.GDloadingtxtObjects1});
 gdjs.menuCode.eventsList0 = function(runtimeScene) {
 
