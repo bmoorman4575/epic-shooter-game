@@ -1,3 +1,5 @@
 On November 5, 2023:
-Added basic multiplayer functionality that connects clients together using peer-to-peer (P2P) technology.
+Added basic multiplayer functionality that connects clients using peer-to-peer (P2P) technology.
 Created a basic debug menu for connecting clients.
+Added a 'What's New' menu.
+Added new placeholder models for multiplayer.
