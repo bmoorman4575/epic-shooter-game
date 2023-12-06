@@ -1,0 +1,1 @@
+{"isgamepublicyet":"0","lastjoinableversion":"0","latestbuild":"12.5.2023","playable":true}
